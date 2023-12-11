@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Simple Messaging System</title>
+</head>
+<body>
+  <div id="chatApp">
+    <div id="messagesContainer"></div>
+  </div>
+
+  <!-- Move this input to the bottom of the body for the message input -->
+  <div id="messageInputContainer">
+    <input type="text" id="messageInput" placeholder="Type your message...">
+    <button id="sendMessageBtn">Send</button>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
